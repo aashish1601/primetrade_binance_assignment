@@ -1,0 +1,17 @@
+2026-03-13 10:30:00 | INFO     | trading_bot | CLI order request: MARKET BUY 0.001 BTCUSDT
+2026-03-13 10:30:00 | INFO     | trading_bot | Processing MARKET order: BUY 0.001 BTCUSDT
+2026-03-13 10:30:00 | INFO     | trading_bot | Placing MARKET BUY order: 0.001 BTCUSDT
+2026-03-13 10:30:00 | INFO     | trading_bot | API Request: POST /fapi/v1/order
+2026-03-13 10:30:01 | INFO     | trading_bot | API Response: Status 200
+2026-03-13 10:30:01 | INFO     | trading_bot | MARKET order placed successfully: ID=12345678901, Status=FILLED
+
+# Order Response Details:
+# -----------------------
+# orderId: 12345678901
+# symbol: BTCUSDT
+# side: BUY
+# type: MARKET
+# status: FILLED
+# origQty: 0.001
+# executedQty: 0.001
+# avgPrice: 83245.50

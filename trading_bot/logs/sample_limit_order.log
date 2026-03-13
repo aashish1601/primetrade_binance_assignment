@@ -1,0 +1,18 @@
+2026-03-13 10:35:00 | INFO     | trading_bot | CLI order request: LIMIT SELL 0.001 BTCUSDT @ 90000
+2026-03-13 10:35:00 | INFO     | trading_bot | Processing LIMIT order: SELL 0.001 BTCUSDT @ 90000
+2026-03-13 10:35:00 | INFO     | trading_bot | Placing LIMIT SELL order: 0.001 BTCUSDT @ 90000
+2026-03-13 10:35:00 | INFO     | trading_bot | API Request: POST /fapi/v1/order
+2026-03-13 10:35:01 | INFO     | trading_bot | API Response: Status 200
+2026-03-13 10:35:01 | INFO     | trading_bot | LIMIT order placed successfully: ID=12345678902, Status=NEW
+
+# Order Response Details:
+# -----------------------
+# orderId: 12345678902
+# symbol: BTCUSDT
+# side: SELL
+# type: LIMIT
+# status: NEW
+# price: 90000.00
+# origQty: 0.001
+# executedQty: 0
+# timeInForce: GTC
